@@ -1,0 +1,28 @@
+:host {
+  .container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+
+    .container-field {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  mat-icon {
+    color: #757575;
+  }
+
+  mat-hint .input-error {
+    color: #f44336;
+  }
+
+  .test.mat-form-field-infix {
+    padding:0 !important;
+  }
+}
